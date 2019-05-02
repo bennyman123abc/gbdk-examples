@@ -5,6 +5,7 @@ install:
   - cd gbdk-master
   - make
   - sudo make install
+  - cd ..
 script:
   - cd gbdk
   - make
