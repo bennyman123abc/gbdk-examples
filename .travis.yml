@@ -1,0 +1,10 @@
+language: cpp
+install:
+  - sudo apt-get -y install make gcc g++ bison flex
+  - git clone https://github.com/bennyman123abc gbdk-master
+  - cd gbdk-master
+  - make
+  - sudo make install
+script:
+  - cd gbdk
+  - make
